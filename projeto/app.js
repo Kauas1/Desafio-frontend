@@ -35,7 +35,7 @@ function validateForm() {
 
 function handleInvalidInput(inputElement) {
     inputElement.classList.add('invalid');
-    // Adicione um ícone à direita do campo usando Font Awesome
+
     inputElement.insertAdjacentHTML('afterend', '<i class="fas fa-exclamation-circle"></i>');
 }
 
@@ -49,6 +49,6 @@ function handleValidInput(inputElement) {
 }
 
 function isValidEmail(email) {
-    // Sua lógica de validação de e-mail
+ 
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
