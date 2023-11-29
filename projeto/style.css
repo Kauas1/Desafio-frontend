@@ -1,0 +1,117 @@
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: rgb(255, 121, 120);
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+    Font-size: 16px;
+    margin: 0px;
+}
+
+
+.container{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    max-width: 1440px;
+   
+}
+
+.text{
+    color:white;
+    padding: 200px 100px 200px 100px;
+    width: 500px;
+}
+
+p{
+    text-align: left;
+}
+h1{
+    font-size: 46px;
+}
+h6{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    opacity: 0.6;
+}
+b{
+    color:red;
+}
+.box1{
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    width: 540px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.box2{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    height: auto;
+}
+
+.inputUser{
+    height: 25px;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button{
+    width: 475px;
+    height: 50px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+ul{
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+    opacity: 0.9;
+}
+
+#btn{
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+#btn:hover{
+    background-color: green;
+    color: white;
+}
+.inputIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red; 
+}
+
+.inputUser.invalid {
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/svgs/solid/exclamation-circle.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb; 
+}
+
+
+.inputUser.valid {
+    background-image: none;
+}
+
+.inputUser.invalid {
+
+    color: red;  
+}
